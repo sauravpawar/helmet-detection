@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['helmet', 'no helmet']
+
+roboflow:
+  workspace: saurav-pawar
+  project: helmet_detection-6shsn
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/saurav-pawar/helmet_detection-6shsn/dataset/4
